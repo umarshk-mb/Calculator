@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="calc.js"></script>
+    <title>Calcultor</title>
+  </head>
+  <body>
+    <div class="calculatorcontainer">
+      <div class="calc">
+        <div class="screen" id="res"></div>
+
+        <div class="buttons">
+          <button id="one"  onclick="del()" style="background-color: brown;">C</button>
+          <button id="two"  onclick="insert(1)">1</button>
+          <button id="three" onclick="insert(2)">2</button>
+          <button id="four" onclick="insert(3)">3</button>
+          <button id="five" onclick="insert(4)">4</button>
+          <button id="six" onclick="insert(5)">5</button>
+          <button id="seven" onclick="insert(6)">6</button>
+          <button id="eight" onclick="insert(7)">7</button>
+          <button id="nine" onclick="insert(8)">8</button>
+          <button id="zero" onclick="insert(9)">9</button>
+          <button id="point" onclick="insert(0)">0</button>
+          <button id="sub" onclick="insert('+')">+</button>
+          <button id="add" onclick="insert('-')">-</button>
+          <button id="div" onclick="insert('*')">*</button>
+          <button id="mul" onclick="insert('/')">/</button>
+          <button id="equals" onclick="equal()" style="background-color: blue;">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
